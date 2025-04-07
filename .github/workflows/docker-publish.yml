@@ -53,5 +53,3 @@ jobs:
 
       - name: "Remove untagged versions"
         uses: dataaxiom/ghcr-cleanup-action@v1
-        with:
-          dry-run: true
